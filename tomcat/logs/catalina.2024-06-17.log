@@ -1,0 +1,279 @@
+17-Jun-2024 11:24:12.492 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.11
+17-Jun-2024 11:24:12.505 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 10 2017 21:02:52 UTC
+17-Jun-2024 11:24:12.506 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.11.0
+17-Jun-2024 11:24:12.506 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+17-Jun-2024 11:24:12.506 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+17-Jun-2024 11:24:12.506 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+17-Jun-2024 11:24:12.506 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files (x86)\Java\jdk1.8.0_121\jre
+17-Jun-2024 11:24:12.507 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_121-b13
+17-Jun-2024 11:24:12.507 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+17-Jun-2024 11:24:12.507 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\JavaFW_kouka2\tomcat
+17-Jun-2024 11:24:12.507 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\JavaFW_kouka2\tomcat
+17-Jun-2024 11:24:12.509 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\JavaFW_kouka2\tomcat\conf\logging.properties
+17-Jun-2024 11:24:12.509 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Jun-2024 11:24:12.509 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+17-Jun-2024 11:24:12.509 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+17-Jun-2024 11:24:12.509 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+17-Jun-2024 11:24:12.509 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\JavaFW_kouka2\tomcat
+17-Jun-2024 11:24:12.509 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\JavaFW_kouka2\tomcat
+17-Jun-2024 11:24:12.509 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\JavaFW_kouka2\tomcat\temp
+17-Jun-2024 11:24:12.509 情報 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Java\jdk1.8.0_121\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;"C:\Program Files\Java\jdk-14\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;"C:\Program Files\Java\jdk-14\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;"C:\Program Files\Java\jdk-14\bin;C:\Windows\System32";C:\Program Files\nodejs\;";C:\Program Files\nodejs\;";C:\Program Files\nodejs\;C:\Users\y_oohara\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\y_oohara\AppData\Local\Programs\Python\Python39\;C:\Users\y_oohara\AppData\Local\Microsoft\WindowsApps;C:\Users\y_oohara\AppData\Local\Programs\Microsoft VS Code\bin;C:MinGW\bin;C:\Users\y_oohara\AppData\Roaming\npm;.
+17-Jun-2024 11:24:12.732 情報 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+17-Jun-2024 11:24:13.185 情報 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+17-Jun-2024 11:24:13.189 情報 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+17-Jun-2024 11:24:13.192 情報 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+17-Jun-2024 11:24:13.193 情報 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1514 ms
+17-Jun-2024 11:24:13.242 情報 [main] org.apache.catalina.core.StandardService.startInternal サービス Catalina を起動します
+17-Jun-2024 11:24:13.242 情報 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.11
+17-Jun-2024 11:24:13.257 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ C:\JavaFW_kouka2\tomcat\webapps\book を配備します
+17-Jun-2024 11:24:14.482 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\JavaFW_kouka2\tomcat\webapps\book has finished in 1,224 ms
+17-Jun-2024 11:24:14.484 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ C:\JavaFW_kouka2\tomcat\webapps\docs を配備します
+17-Jun-2024 11:24:14.506 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\JavaFW_kouka2\tomcat\webapps\docs has finished in 22 ms
+17-Jun-2024 11:24:14.506 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ C:\JavaFW_kouka2\tomcat\webapps\examples を配備します
+17-Jun-2024 11:24:15.462 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\JavaFW_kouka2\tomcat\webapps\examples has finished in 956 ms
+17-Jun-2024 11:24:15.462 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ C:\JavaFW_kouka2\tomcat\webapps\host-manager を配備します
+17-Jun-2024 11:24:15.504 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\JavaFW_kouka2\tomcat\webapps\host-manager has finished in 42 ms
+17-Jun-2024 11:24:15.504 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ C:\JavaFW_kouka2\tomcat\webapps\manager を配備します
+17-Jun-2024 11:24:15.548 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\JavaFW_kouka2\tomcat\webapps\manager has finished in 44 ms
+17-Jun-2024 11:24:15.548 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ C:\JavaFW_kouka2\tomcat\webapps\ROOT を配備します
+17-Jun-2024 11:24:15.572 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\JavaFW_kouka2\tomcat\webapps\ROOT has finished in 24 ms
+17-Jun-2024 11:24:15.576 情報 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+17-Jun-2024 11:24:15.587 情報 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+17-Jun-2024 11:24:15.591 情報 [main] org.apache.catalina.startup.Catalina.start Server startup in 2396 ms
+17-Jun-2024 11:25:03.007 情報 [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+17-Jun-2024 11:25:03.366 情報 [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+17-Jun-2024 11:25:03.647 情報 [Thread-5] org.apache.catalina.core.StandardService.stopInternal サービス Catalina を停止します
+17-Jun-2024 11:25:03.712 情報 [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+17-Jun-2024 11:25:03.714 情報 [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+17-Jun-2024 11:25:03.716 情報 [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+17-Jun-2024 11:25:03.717 情報 [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+17-Jun-2024 11:25:04.966 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.11
+17-Jun-2024 11:25:04.970 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 10 2017 21:02:52 UTC
+17-Jun-2024 11:25:04.970 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.11.0
+17-Jun-2024 11:25:04.970 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+17-Jun-2024 11:25:04.970 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+17-Jun-2024 11:25:04.971 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+17-Jun-2024 11:25:04.971 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files (x86)\Java\jdk1.8.0_121\jre
+17-Jun-2024 11:25:04.971 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_121-b13
+17-Jun-2024 11:25:04.971 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+17-Jun-2024 11:25:04.972 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\JavaFW_kouka2\tomcat
+17-Jun-2024 11:25:04.972 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\JavaFW_kouka2\tomcat
+17-Jun-2024 11:25:04.972 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\JavaFW_kouka2\tomcat\conf\logging.properties
+17-Jun-2024 11:25:04.972 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Jun-2024 11:25:04.973 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+17-Jun-2024 11:25:04.973 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+17-Jun-2024 11:25:04.973 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+17-Jun-2024 11:25:04.973 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\JavaFW_kouka2\tomcat
+17-Jun-2024 11:25:04.973 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\JavaFW_kouka2\tomcat
+17-Jun-2024 11:25:04.973 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\JavaFW_kouka2\tomcat\temp
+17-Jun-2024 11:25:04.974 情報 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Java\jdk1.8.0_121\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;"C:\Program Files\Java\jdk-14\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;"C:\Program Files\Java\jdk-14\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;"C:\Program Files\Java\jdk-14\bin;C:\Windows\System32";C:\Program Files\nodejs\;";C:\Program Files\nodejs\;";C:\Program Files\nodejs\;C:\Users\y_oohara\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\y_oohara\AppData\Local\Programs\Python\Python39\;C:\Users\y_oohara\AppData\Local\Microsoft\WindowsApps;C:\Users\y_oohara\AppData\Local\Programs\Microsoft VS Code\bin;C:MinGW\bin;C:\Users\y_oohara\AppData\Roaming\npm;.
+17-Jun-2024 11:25:05.105 情報 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+17-Jun-2024 11:25:05.496 情報 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+17-Jun-2024 11:25:05.503 情報 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+17-Jun-2024 11:25:05.505 情報 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+17-Jun-2024 11:25:05.507 情報 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 847 ms
+17-Jun-2024 11:25:05.547 情報 [main] org.apache.catalina.core.StandardService.startInternal サービス Catalina を起動します
+17-Jun-2024 11:25:05.547 情報 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.11
+17-Jun-2024 11:25:05.558 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ C:\JavaFW_kouka2\tomcat\webapps\book を配備します
+17-Jun-2024 11:25:06.297 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\JavaFW_kouka2\tomcat\webapps\book has finished in 737 ms
+17-Jun-2024 11:25:06.298 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ C:\JavaFW_kouka2\tomcat\webapps\docs を配備します
+17-Jun-2024 11:25:06.322 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\JavaFW_kouka2\tomcat\webapps\docs has finished in 23 ms
+17-Jun-2024 11:25:06.322 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ C:\JavaFW_kouka2\tomcat\webapps\examples を配備します
+17-Jun-2024 11:25:06.629 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\JavaFW_kouka2\tomcat\webapps\examples has finished in 307 ms
+17-Jun-2024 11:25:06.630 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ C:\JavaFW_kouka2\tomcat\webapps\host-manager を配備します
+17-Jun-2024 11:25:06.666 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\JavaFW_kouka2\tomcat\webapps\host-manager has finished in 36 ms
+17-Jun-2024 11:25:06.667 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ C:\JavaFW_kouka2\tomcat\webapps\manager を配備します
+17-Jun-2024 11:25:06.699 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\JavaFW_kouka2\tomcat\webapps\manager has finished in 32 ms
+17-Jun-2024 11:25:06.700 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ C:\JavaFW_kouka2\tomcat\webapps\ROOT を配備します
+17-Jun-2024 11:25:06.718 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\JavaFW_kouka2\tomcat\webapps\ROOT has finished in 18 ms
+17-Jun-2024 11:25:06.722 情報 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+17-Jun-2024 11:25:06.735 情報 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+17-Jun-2024 11:25:06.739 情報 [main] org.apache.catalina.startup.Catalina.start Server startup in 1232 ms
+17-Jun-2024 11:26:27.088 情報 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload このコンテキストの再ロードを開始しました
+17-Jun-2024 11:26:27.099 警告 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [book] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+17-Jun-2024 11:26:27.311 情報 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload このコンテキストの再ロードが完了しました
+17-Jun-2024 11:27:57.755 情報 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload このコンテキストの再ロードを開始しました
+17-Jun-2024 11:27:57.766 警告 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [book] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+17-Jun-2024 11:27:58.139 情報 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload このコンテキストの再ロードが完了しました
+17-Jun-2024 11:28:48.311 情報 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload このコンテキストの再ロードを開始しました
+17-Jun-2024 11:28:48.317 警告 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [book] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+17-Jun-2024 11:28:48.551 情報 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload このコンテキストの再ロードが完了しました
+17-Jun-2024 11:35:59.671 情報 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload このコンテキストの再ロードを開始しました
+17-Jun-2024 11:35:59.675 警告 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [book] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+17-Jun-2024 11:35:59.929 情報 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload このコンテキストの再ロードが完了しました
+17-Jun-2024 11:37:20.446 情報 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload このコンテキストの再ロードを開始しました
+17-Jun-2024 11:37:20.453 警告 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [book] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+17-Jun-2024 11:37:20.660 情報 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload このコンテキストの再ロードが完了しました
+17-Jun-2024 11:37:50.736 情報 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload このコンテキストの再ロードを開始しました
+17-Jun-2024 11:37:50.741 警告 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [book] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+17-Jun-2024 11:37:50.937 情報 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload このコンテキストの再ロードが完了しました
+17-Jun-2024 11:40:51.685 情報 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload このコンテキストの再ロードを開始しました
+17-Jun-2024 11:40:51.694 警告 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [book] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+17-Jun-2024 11:40:51.913 情報 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload このコンテキストの再ロードが完了しました
+17-Jun-2024 14:39:47.515 情報 [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+17-Jun-2024 14:39:47.879 情報 [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+17-Jun-2024 14:39:48.253 情報 [Thread-5] org.apache.catalina.core.StandardService.stopInternal サービス Catalina を停止します
+17-Jun-2024 14:39:48.346 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [book] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+17-Jun-2024 14:39:48.356 情報 [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+17-Jun-2024 14:39:48.366 情報 [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+17-Jun-2024 14:39:48.370 情報 [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+17-Jun-2024 14:39:48.372 情報 [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+17-Jun-2024 14:39:52.533 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.11
+17-Jun-2024 14:39:52.538 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 10 2017 21:02:52 UTC
+17-Jun-2024 14:39:52.538 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.11.0
+17-Jun-2024 14:39:52.538 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+17-Jun-2024 14:39:52.539 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+17-Jun-2024 14:39:52.539 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+17-Jun-2024 14:39:52.539 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files (x86)\Java\jdk1.8.0_121\jre
+17-Jun-2024 14:39:52.540 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_121-b13
+17-Jun-2024 14:39:52.540 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+17-Jun-2024 14:39:52.540 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\JavaFW_kouka2\tomcat
+17-Jun-2024 14:39:52.541 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\JavaFW_kouka2\tomcat
+17-Jun-2024 14:39:52.541 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\JavaFW_kouka2\tomcat\conf\logging.properties
+17-Jun-2024 14:39:52.542 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Jun-2024 14:39:52.542 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+17-Jun-2024 14:39:52.542 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+17-Jun-2024 14:39:52.542 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+17-Jun-2024 14:39:52.543 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\JavaFW_kouka2\tomcat
+17-Jun-2024 14:39:52.543 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\JavaFW_kouka2\tomcat
+17-Jun-2024 14:39:52.544 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\JavaFW_kouka2\tomcat\temp
+17-Jun-2024 14:39:52.544 情報 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Java\jdk1.8.0_121\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;"C:\Program Files\Java\jdk-14\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;"C:\Program Files\Java\jdk-14\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;"C:\Program Files\Java\jdk-14\bin;C:\Windows\System32";C:\Program Files\nodejs\;";C:\Program Files\nodejs\;";C:\Program Files\nodejs\;C:\Users\y_oohara\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\y_oohara\AppData\Local\Programs\Python\Python39\;C:\Users\y_oohara\AppData\Local\Microsoft\WindowsApps;C:\Users\y_oohara\AppData\Local\Programs\Microsoft VS Code\bin;C:MinGW\bin;C:\Users\y_oohara\AppData\Roaming\npm;.
+17-Jun-2024 14:39:52.675 情報 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+17-Jun-2024 14:39:53.021 情報 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+17-Jun-2024 14:39:53.024 情報 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+17-Jun-2024 14:39:53.026 情報 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+17-Jun-2024 14:39:53.027 情報 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 805 ms
+17-Jun-2024 14:39:53.067 情報 [main] org.apache.catalina.core.StandardService.startInternal サービス Catalina を起動します
+17-Jun-2024 14:39:53.067 情報 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.11
+17-Jun-2024 14:39:53.079 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ C:\JavaFW_kouka2\tomcat\webapps\book を配備します
+17-Jun-2024 14:39:53.766 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\JavaFW_kouka2\tomcat\webapps\book has finished in 686 ms
+17-Jun-2024 14:39:53.767 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ C:\JavaFW_kouka2\tomcat\webapps\docs を配備します
+17-Jun-2024 14:39:53.786 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\JavaFW_kouka2\tomcat\webapps\docs has finished in 19 ms
+17-Jun-2024 14:39:53.787 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ C:\JavaFW_kouka2\tomcat\webapps\examples を配備します
+17-Jun-2024 14:39:54.151 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\JavaFW_kouka2\tomcat\webapps\examples has finished in 364 ms
+17-Jun-2024 14:39:54.151 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ C:\JavaFW_kouka2\tomcat\webapps\host-manager を配備します
+17-Jun-2024 14:39:54.180 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\JavaFW_kouka2\tomcat\webapps\host-manager has finished in 29 ms
+17-Jun-2024 14:39:54.180 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ C:\JavaFW_kouka2\tomcat\webapps\manager を配備します
+17-Jun-2024 14:39:54.213 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\JavaFW_kouka2\tomcat\webapps\manager has finished in 32 ms
+17-Jun-2024 14:39:54.213 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ C:\JavaFW_kouka2\tomcat\webapps\ROOT を配備します
+17-Jun-2024 14:39:54.237 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\JavaFW_kouka2\tomcat\webapps\ROOT has finished in 24 ms
+17-Jun-2024 14:39:54.240 情報 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+17-Jun-2024 14:39:54.250 情報 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+17-Jun-2024 14:39:54.253 情報 [main] org.apache.catalina.startup.Catalina.start Server startup in 1225 ms
+17-Jun-2024 14:41:18.171 情報 [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+17-Jun-2024 14:41:18.530 情報 [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+17-Jun-2024 14:41:18.933 情報 [Thread-5] org.apache.catalina.core.StandardService.stopInternal サービス Catalina を停止します
+17-Jun-2024 14:41:18.985 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [book] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+17-Jun-2024 14:41:18.993 情報 [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+17-Jun-2024 14:41:18.997 情報 [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+17-Jun-2024 14:41:18.998 情報 [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+17-Jun-2024 14:41:18.999 情報 [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+17-Jun-2024 14:41:21.390 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.11
+17-Jun-2024 14:41:21.394 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 10 2017 21:02:52 UTC
+17-Jun-2024 14:41:21.394 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.11.0
+17-Jun-2024 14:41:21.395 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+17-Jun-2024 14:41:21.395 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+17-Jun-2024 14:41:21.395 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+17-Jun-2024 14:41:21.395 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files (x86)\Java\jdk1.8.0_121\jre
+17-Jun-2024 14:41:21.396 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_121-b13
+17-Jun-2024 14:41:21.396 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+17-Jun-2024 14:41:21.396 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\JavaFW_kouka2\tomcat
+17-Jun-2024 14:41:21.396 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\JavaFW_kouka2\tomcat
+17-Jun-2024 14:41:21.397 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\JavaFW_kouka2\tomcat\conf\logging.properties
+17-Jun-2024 14:41:21.398 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Jun-2024 14:41:21.399 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+17-Jun-2024 14:41:21.399 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+17-Jun-2024 14:41:21.399 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+17-Jun-2024 14:41:21.399 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\JavaFW_kouka2\tomcat
+17-Jun-2024 14:41:21.400 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\JavaFW_kouka2\tomcat
+17-Jun-2024 14:41:21.400 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\JavaFW_kouka2\tomcat\temp
+17-Jun-2024 14:41:21.401 情報 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Java\jdk1.8.0_121\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;"C:\Program Files\Java\jdk-14\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;"C:\Program Files\Java\jdk-14\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;"C:\Program Files\Java\jdk-14\bin;C:\Windows\System32";C:\Program Files\nodejs\;";C:\Program Files\nodejs\;";C:\Program Files\nodejs\;C:\Users\y_oohara\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\y_oohara\AppData\Local\Programs\Python\Python39\;C:\Users\y_oohara\AppData\Local\Microsoft\WindowsApps;C:\Users\y_oohara\AppData\Local\Programs\Microsoft VS Code\bin;C:MinGW\bin;C:\Users\y_oohara\AppData\Roaming\npm;.
+17-Jun-2024 14:41:21.519 情報 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+17-Jun-2024 14:41:21.920 情報 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+17-Jun-2024 14:41:21.925 情報 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+17-Jun-2024 14:41:21.927 情報 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+17-Jun-2024 14:41:21.928 情報 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 847 ms
+17-Jun-2024 14:41:21.959 情報 [main] org.apache.catalina.core.StandardService.startInternal サービス Catalina を起動します
+17-Jun-2024 14:41:21.959 情報 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.11
+17-Jun-2024 14:41:21.970 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ C:\JavaFW_kouka2\tomcat\webapps\book を配備します
+17-Jun-2024 14:41:22.640 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\JavaFW_kouka2\tomcat\webapps\book has finished in 668 ms
+17-Jun-2024 14:41:22.641 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ C:\JavaFW_kouka2\tomcat\webapps\docs を配備します
+17-Jun-2024 14:41:22.659 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\JavaFW_kouka2\tomcat\webapps\docs has finished in 18 ms
+17-Jun-2024 14:41:22.659 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ C:\JavaFW_kouka2\tomcat\webapps\examples を配備します
+17-Jun-2024 14:41:22.949 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\JavaFW_kouka2\tomcat\webapps\examples has finished in 290 ms
+17-Jun-2024 14:41:22.949 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ C:\JavaFW_kouka2\tomcat\webapps\host-manager を配備します
+17-Jun-2024 14:41:22.985 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\JavaFW_kouka2\tomcat\webapps\host-manager has finished in 36 ms
+17-Jun-2024 14:41:22.986 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ C:\JavaFW_kouka2\tomcat\webapps\manager を配備します
+17-Jun-2024 14:41:23.011 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\JavaFW_kouka2\tomcat\webapps\manager has finished in 25 ms
+17-Jun-2024 14:41:23.012 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ C:\JavaFW_kouka2\tomcat\webapps\ROOT を配備します
+17-Jun-2024 14:41:23.031 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\JavaFW_kouka2\tomcat\webapps\ROOT has finished in 19 ms
+17-Jun-2024 14:41:23.035 情報 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+17-Jun-2024 14:41:23.043 情報 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+17-Jun-2024 14:41:23.045 情報 [main] org.apache.catalina.startup.Catalina.start Server startup in 1117 ms
+17-Jun-2024 14:42:33.488 情報 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload このコンテキストの再ロードを開始しました
+17-Jun-2024 14:42:33.498 警告 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [book] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+17-Jun-2024 14:42:33.771 情報 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload このコンテキストの再ロードが完了しました
+17-Jun-2024 14:44:47.867 情報 [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+17-Jun-2024 14:44:48.262 情報 [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+17-Jun-2024 14:44:48.587 情報 [Thread-5] org.apache.catalina.core.StandardService.stopInternal サービス Catalina を停止します
+17-Jun-2024 14:44:48.619 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [book] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+17-Jun-2024 14:44:48.628 情報 [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+17-Jun-2024 14:44:48.631 情報 [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+17-Jun-2024 14:44:48.632 情報 [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+17-Jun-2024 14:44:48.633 情報 [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+17-Jun-2024 14:44:49.955 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.11
+17-Jun-2024 14:44:49.962 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 10 2017 21:02:52 UTC
+17-Jun-2024 14:44:49.963 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.11.0
+17-Jun-2024 14:44:49.963 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+17-Jun-2024 14:44:49.963 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+17-Jun-2024 14:44:49.963 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+17-Jun-2024 14:44:49.964 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files (x86)\Java\jdk1.8.0_121\jre
+17-Jun-2024 14:44:49.964 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_121-b13
+17-Jun-2024 14:44:49.964 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+17-Jun-2024 14:44:49.965 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\JavaFW_kouka2\tomcat
+17-Jun-2024 14:44:49.965 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\JavaFW_kouka2\tomcat
+17-Jun-2024 14:44:49.965 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\JavaFW_kouka2\tomcat\conf\logging.properties
+17-Jun-2024 14:44:49.965 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Jun-2024 14:44:49.965 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+17-Jun-2024 14:44:49.965 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+17-Jun-2024 14:44:49.967 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+17-Jun-2024 14:44:49.967 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\JavaFW_kouka2\tomcat
+17-Jun-2024 14:44:49.967 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\JavaFW_kouka2\tomcat
+17-Jun-2024 14:44:49.967 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\JavaFW_kouka2\tomcat\temp
+17-Jun-2024 14:44:49.967 情報 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Java\jdk1.8.0_121\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;"C:\Program Files\Java\jdk-14\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;"C:\Program Files\Java\jdk-14\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;"C:\Program Files\Java\jdk-14\bin;C:\Windows\System32";C:\Program Files\nodejs\;";C:\Program Files\nodejs\;";C:\Program Files\nodejs\;C:\Users\y_oohara\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\y_oohara\AppData\Local\Programs\Python\Python39\;C:\Users\y_oohara\AppData\Local\Microsoft\WindowsApps;C:\Users\y_oohara\AppData\Local\Programs\Microsoft VS Code\bin;C:MinGW\bin;C:\Users\y_oohara\AppData\Roaming\npm;.
+17-Jun-2024 14:44:50.116 情報 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+17-Jun-2024 14:44:50.489 情報 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+17-Jun-2024 14:44:50.493 情報 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+17-Jun-2024 14:44:50.496 情報 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+17-Jun-2024 14:44:50.497 情報 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 863 ms
+17-Jun-2024 14:44:50.527 情報 [main] org.apache.catalina.core.StandardService.startInternal サービス Catalina を起動します
+17-Jun-2024 14:44:50.528 情報 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.11
+17-Jun-2024 14:44:50.538 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ C:\JavaFW_kouka2\tomcat\webapps\book を配備します
+17-Jun-2024 14:44:51.215 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\JavaFW_kouka2\tomcat\webapps\book has finished in 674 ms
+17-Jun-2024 14:44:51.216 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ C:\JavaFW_kouka2\tomcat\webapps\docs を配備します
+17-Jun-2024 14:44:51.238 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\JavaFW_kouka2\tomcat\webapps\docs has finished in 21 ms
+17-Jun-2024 14:44:51.238 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ C:\JavaFW_kouka2\tomcat\webapps\examples を配備します
+17-Jun-2024 14:44:51.532 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\JavaFW_kouka2\tomcat\webapps\examples has finished in 293 ms
+17-Jun-2024 14:44:51.532 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ C:\JavaFW_kouka2\tomcat\webapps\host-manager を配備します
+17-Jun-2024 14:44:51.566 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\JavaFW_kouka2\tomcat\webapps\host-manager has finished in 34 ms
+17-Jun-2024 14:44:51.566 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ C:\JavaFW_kouka2\tomcat\webapps\manager を配備します
+17-Jun-2024 14:44:51.588 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\JavaFW_kouka2\tomcat\webapps\manager has finished in 22 ms
+17-Jun-2024 14:44:51.589 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ C:\JavaFW_kouka2\tomcat\webapps\ROOT を配備します
+17-Jun-2024 14:44:51.607 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\JavaFW_kouka2\tomcat\webapps\ROOT has finished in 18 ms
+17-Jun-2024 14:44:51.610 情報 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+17-Jun-2024 14:44:51.618 情報 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+17-Jun-2024 14:44:51.621 情報 [main] org.apache.catalina.startup.Catalina.start Server startup in 1122 ms
+17-Jun-2024 14:46:52.303 情報 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload このコンテキストの再ロードを開始しました
+17-Jun-2024 14:46:52.316 警告 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [book] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+17-Jun-2024 14:46:52.560 情報 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload このコンテキストの再ロードが完了しました
+17-Jun-2024 14:47:42.769 情報 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload このコンテキストの再ロードを開始しました
+17-Jun-2024 14:47:42.775 警告 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [book] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+17-Jun-2024 14:47:42.980 情報 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload このコンテキストの再ロードが完了しました
+17-Jun-2024 15:09:12.113 情報 [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+17-Jun-2024 15:09:12.440 情報 [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+17-Jun-2024 15:09:12.768 情報 [Thread-5] org.apache.catalina.core.StandardService.stopInternal サービス Catalina を停止します
+17-Jun-2024 15:09:12.807 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [book] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+17-Jun-2024 15:09:12.816 情報 [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+17-Jun-2024 15:09:12.819 情報 [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+17-Jun-2024 15:09:12.820 情報 [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+17-Jun-2024 15:09:12.821 情報 [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

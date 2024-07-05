@@ -1,0 +1,17 @@
+0:0:0:0:0:0:0:1 - - [01/Apr/2024:14:15:29 +0900] "GET /book/chapter8/greeting-in.jsp HTTP/1.1" 500 2988
+0:0:0:0:0:0:0:1 - - [01/Apr/2024:14:16:25 +0900] "GET /book/chapter8/greeting-in.jsp HTTP/1.1" 200 352
+0:0:0:0:0:0:0:1 - - [01/Apr/2024:14:16:25 +0900] "GET /favicon.ico HTTP/1.1" 200 21630
+0:0:0:0:0:0:0:1 - - [01/Apr/2024:14:16:31 +0900] "POST /book/chapter8/greeting-out.jsp HTTP/1.1" 200 213
+0:0:0:0:0:0:0:1 - - [01/Apr/2024:14:21:43 +0900] "GET /book/chapter8/total-in.jsp HTTP/1.1" 404 1065
+0:0:0:0:0:0:0:1 - - [01/Apr/2024:14:22:15 +0900] "GET /book/chapter8/total-in.jsp HTTP/1.1" 404 1065
+0:0:0:0:0:0:0:1 - - [01/Apr/2024:14:22:15 +0900] "GET /favicon.ico HTTP/1.1" 200 21630
+0:0:0:0:0:0:0:1 - - [01/Apr/2024:14:22:16 +0900] "GET /book/chapter8/total-in.jsp HTTP/1.1" 404 1065
+0:0:0:0:0:0:0:1 - - [01/Apr/2024:14:22:16 +0900] "GET /favicon.ico HTTP/1.1" 200 21630
+0:0:0:0:0:0:0:1 - - [01/Apr/2024:14:22:17 +0900] "GET /book/chapter8/total-in.jsp HTTP/1.1" 404 1065
+0:0:0:0:0:0:0:1 - - [01/Apr/2024:14:22:17 +0900] "GET /favicon.ico HTTP/1.1" 200 21630
+0:0:0:0:0:0:0:1 - - [01/Apr/2024:14:28:31 +0900] "GET /book/chapter8/total-in.jsp HTTP/1.1" 500 3007
+0:0:0:0:0:0:0:1 - - [01/Apr/2024:14:28:31 +0900] "GET /favicon.ico HTTP/1.1" 200 21630
+0:0:0:0:0:0:0:1 - - [01/Apr/2024:14:29:13 +0900] "GET /book/chapter8/total-in.jsp HTTP/1.1" 200 348
+0:0:0:0:0:0:0:1 - - [01/Apr/2024:14:29:13 +0900] "GET /favicon.ico HTTP/1.1" 200 21630
+0:0:0:0:0:0:0:1 - - [01/Apr/2024:14:29:19 +0900] "POST /book/chapter8/total-out.jsp HTTP/1.1" 200 196
+0:0:0:0:0:0:0:1 - - [01/Apr/2024:14:29:27 +0900] "POST /book/chapter8/total-out.jsp HTTP/1.1" 500 3870

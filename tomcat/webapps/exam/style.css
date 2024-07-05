@@ -1,0 +1,43 @@
+body{
+    min-height: 100vh;
+}
+.side {
+    /* background-color:#ff838b; */
+    width: 200px;
+    min-height: 100vh;
+    text-align:center;
+    padding-right: 10px;
+    border: solid 1px black;
+} 
+ 
+.content {
+    /* background-color:#b3d874; */
+    min-height: 100vh;
+    margin-left: 200px;
+    padding-left: 20px;
+    text-align:left;
+    margin-left:10px;
+    flex: 1;
+    border: solid 1px black;
+}
+ 
+article {
+    display:flex;
+}
+.brand {
+    font-weight: bold;
+    font-size: 10px;
+}
+   
+.site-header {
+    position: relative;
+    background-color: white;
+    margin-bottom: 1rem;
+    border: solid 1px black;
+}
+   
+.site-header__wrapper {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background-color: whitesmoke;
+}

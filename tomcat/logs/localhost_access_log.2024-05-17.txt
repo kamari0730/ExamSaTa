@@ -1,0 +1,4 @@
+0:0:0:0:0:0:0:1 - - [17/May/2024:11:08:08 +0900] "GET /book/kadai/chap10/mondai8 HTTP/1.1" 404 1063
+0:0:0:0:0:0:0:1 - - [17/May/2024:11:14:10 +0900] "GET /book/chapter18/count HTTP/1.1" 404 1053
+0:0:0:0:0:0:0:1 - - [17/May/2024:15:09:58 +0900] "GET /book/kouka/Question4input.html HTTP/1.1" 200 365
+0:0:0:0:0:0:0:1 - - [17/May/2024:15:10:01 +0900] "GET /book/kouka/Question4?user=fafa HTTP/1.1" 200 233
