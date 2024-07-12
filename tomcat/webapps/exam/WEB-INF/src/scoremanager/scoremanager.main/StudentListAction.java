@@ -42,6 +42,11 @@ public class StudentListAction extends Action{
 
         List<String> list = cNumDao.filter(teacher.getSchool());
         
+        if(entYearStr != null){
+            entYear = Integer.parseInt(entYearStr);
+        }
+        List<Integer> entYearSet = new ArrayList<>();
+        
         if(entYear != 0 && !classNum.equals("0")){
             students = sDao.filter(teacher.getSchool(), entYear, classNum, isAttend);
         }
@@ -58,10 +63,7 @@ public class StudentListAction extends Action{
 
         }
 
-        if(entYearStr != null){
-            entYear = Integer.parseInt(entYearStr);
-        }
-        List<Integer> entYearSet = new ArrayList<>();
+        
         
         for(int i = year - 10; i < year + 1; i++){
             entYearSet.add(i);

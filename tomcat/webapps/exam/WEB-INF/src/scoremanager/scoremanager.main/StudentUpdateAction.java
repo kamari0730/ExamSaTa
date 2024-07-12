@@ -1,5 +1,6 @@
 package scoremanager.main;
  
+import java.util.List;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
@@ -10,7 +11,7 @@ import bean.School;
 import dao.StudentDao;
 import dao.ClassNumDao;
 import tool.Action;
-import java.util.*;
+
  
 public class StudentUpdateAction extends Action {
     public void execute(HttpServletRequest req, HttpServletResponse res) throws Exception {
@@ -28,10 +29,10 @@ public class StudentUpdateAction extends Action {
        
         ClassNumDao cNumDao = new ClassNumDao();
  
-        List<String> class_list = cNumDao.filter(teacher.getSchool());
+        List<String> class_list = cNumDao.filter(school);
  
-        req.setAttribute("student", stu);
-        req.setAttribute("school", school);
+        req.setAttribute("stu_date", stu);
+        req.setAttribute("class_list", class_list);
  
         req.getRequestDispatcher("student_update.jsp").forward(req, res);
     }

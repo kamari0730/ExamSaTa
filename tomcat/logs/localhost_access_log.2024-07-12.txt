@@ -1,0 +1,4 @@
+0:0:0:0:0:0:0:1 - - [12/Jul/2024:10:04:37 +0900] "GET /exam/scoremanager/index.jsp HTTP/1.1" 200 275
+0:0:0:0:0:0:0:1 - - [12/Jul/2024:10:04:40 +0900] "GET /exam/scoremanager/Login.action HTTP/1.1" 200 3322
+0:0:0:0:0:0:0:1 - - [12/Jul/2024:10:04:46 +0900] "POST /exam/scoremanager/LoginExecute.action HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [12/Jul/2024:10:04:46 +0900] "GET /exam/scoremanager/main/Menu.action HTTP/1.1" 200 3076
