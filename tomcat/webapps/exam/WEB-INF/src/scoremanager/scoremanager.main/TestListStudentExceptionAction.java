@@ -65,8 +65,14 @@ public class TestListStudentExceptionAction extends Action{
         req.setAttribute("subject_set", subjects);
         req.setAttribute("class_num_set", list);
         req.setAttribute("ent_year_set", entYearSet);
+        if(studentId != null){
+            req.getRequestDispatcher("test_list_student.jsp").forward(req, res);
 
-        req.getRequestDispatcher("test_list_student.jsp").forward(req, res);
+        }
+        else{
+            req.getRequestDispatcher("test_list.jsp").forward(req, res);
+        }
+        
 
     }
 }

@@ -53,7 +53,7 @@
                     
 
 					<div class="col-2 text-center">
-						<button class="btn btn-secondary" id="filter-button">検索</button>
+						<button class="btn btn-primary" id="filter-button">検索</button>
 					</div>
 					<div class="mt-2 text-warning">${errors.get("f1")}</div>
 				</div>
@@ -64,13 +64,13 @@
 					学生情報
 					<div class="col-4">
 						<label class="form-label" for="student-f3-select">学生番号</label>
-						<input class="input-group-text" id="student-f3-select" type="text" name="f4" placeholder="学生番号を入力してください" value="" required>
+						<input class="input-group-text bg-white" id="student-f3-select" type="text" name="f4" placeholder="学生番号を入力してください" value="" required>
 					</div>
 
                     
 
 					<div class="col-2 text-center">
-						<button class="btn btn-secondary" id="filter-button">検索</button>
+						<button class="btn btn-primary" id="filter-button">検索</button>
 					</div>
 					<div class="mt-2 text-warning">${errors.get("filter2")}</div>
 				</div>

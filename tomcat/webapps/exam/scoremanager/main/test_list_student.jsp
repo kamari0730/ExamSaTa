@@ -17,6 +17,7 @@
 			</div>
 			<form action="TestListSubjectException.action" method="post">
 				<div class="row border mx-3 mb-3 py-2 align-items-center rounded" id="filter">
+					科目情報
 					<div class="col-2">
 						<label class="form-label" for="student-f1-select">入学年度 </label>
 						<select class="form-select " id="student-f1-select" name="f1">
@@ -51,7 +52,7 @@
                     
 
 					<div class="col-2 text-center">
-						<button class="btn btn-secondary" id="filter-button">検索</button>
+						<button class="btn btn-primary" id="filter-button">検索</button>
 					</div>
 					<div class="mt-2 text-warning">${errors.get("filter")}</div>
 				</div>
@@ -59,16 +60,16 @@
 
 			<form action="TestListStudentException.action" method="get">
 				<div class="row border mx-3 mb-3 py-2 align-items-center rounded" id="filter">
-					
+					学生情報
 					<div class="col-4">
-						<label class="form-label" for="student-f3-select">学生情報</label>
-							<input type="text" name="f4" value="">
+						<label class="form-label" for="student-f3-select">学生番号</label>
+							<input class="input-group-text bg-white" id="student-f3-select" type="text" name="f4" value="">
 					</div>
 
                     
 
 					<div class="col-2 text-center">
-						<button class="btn btn-secondary" id="filter-button">検索</button>
+						<button class="btn btn-primary" id="filter-button">検索</button>
 					</div>
 					<div class="mt-2 text-warning">${errors.get("filter")}</div>
 				</div>
