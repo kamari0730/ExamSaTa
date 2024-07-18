@@ -11,11 +11,9 @@
     <c:param name="content">
         <selection class="me-4">
             <h2 class="h3 mb-3 fw-norma bg-secondary bg-opacity-10 py-2 px-4">学生情報登録</h2>
-<<<<<<< HEAD
+
             <form action="StudentCreateException.action" method="post">
-=======
-            <from action="StudentCreateExecite.action" method="post">
->>>>>>> e6c01bbf88b4020ed7505911a5e547b51c08d900
+
                 <label>入学年度</label>
                 <select name="ent_year">
                     <option value="0">--------</option>
@@ -40,11 +38,9 @@
                 <button name="end">登録して完了</button>
                 <br>
                 <a href="StudentList.action">戻る</a>
-<<<<<<< HEAD
-            </form>
-=======
+
             </from>
->>>>>>> e6c01bbf88b4020ed7505911a5e547b51c08d900
+
         </selection>
     </c:param>
 </c:import>

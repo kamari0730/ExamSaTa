@@ -17,7 +17,7 @@
 			</div>
 			<form action="TestListSubjectException.action" method="post">
 				<div class="row border mx-3 mb-3 py-2 align-items-center rounded" id="filter">
-					<div class="col-4">
+					<div class="col-2">
 						<label class="form-label" for="student-f1-select">入学年度 </label>
 						<select class="form-select " id="student-f1-select" name="f1">
 							<option value="0">--------</option>
@@ -27,7 +27,7 @@
 							</c:forEach>
 						</select>
 					</div>
-					<div class="col-4">
+					<div class="col-2">
 						<label class="form-label" for="student-f2-select">クラス</label>
 						<select class="form-select " id="student-f2-select" name="f2">
 							<option value="0">--------</option>

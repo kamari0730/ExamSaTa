@@ -17,7 +17,7 @@
 			</div>
 			<form method="get">
 				<div class="row border mx-3 mb-3 py-2 align-items-center rounded" id="filter">
-					<div class="col-4">
+					<div class="col-2">
 						<label class="form-label" for="student-f1-select">入学年度 </label>
 						<select class="form-select " id="student-f1-select" name="f1">
 							<option value="0">--------</option>
@@ -27,7 +27,7 @@
 							</c:forEach>
 						</select>
 					</div>
-					<div class="col-4">
+					<div class="col-2">
 						<label class="form-label" for="student-f2-select">クラス</label>
 						<select class="form-select " id="student-f2-select" name="f2">
 							<option value="0">--------</option>
@@ -48,7 +48,7 @@
 						</select>
 					</div>
 
-                    <div class="col-4">
+                    <div class="col-2">
 						<label class="form-label" for="student-f4-select">回数 </label>
 						<select class="form-select " id="student-f4-select" name="f4">
 							<option value="0">--------</option>
@@ -86,7 +86,7 @@
                             <c:forEach var="test" items="${tests}">
                                 <tr>
                                     <td>${test.student.entYear}</td>
-                                    <td><input type="hidden" name="cno" value="${test.student.classNum}" ${test.student.classNum}</td>
+                                    <td><input type="hidden" name="cno" value="${test.student.classNum}">${test.student.classNum}</td>
                                     <td><input type="hidden" name="no" value="${test.student.no}"> ${test.student.no}</td>
                                     <td>${test.student.name}</td>
                                     <td><input type="number" name="point" min="0" max="100" <c:if test="${test.point != -1}">value="${test.point}"</c:if>></td>

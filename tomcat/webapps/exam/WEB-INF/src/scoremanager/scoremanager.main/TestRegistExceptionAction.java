@@ -66,7 +66,12 @@ public class TestRegistExceptionAction extends Action{
             schl.setCd(teacher.getSchool().getCd());
             test.setStudent(stu);
             test.setNo(count);
-            test.setPoint(Integer.parseInt(point[i]));
+            try {
+                test.setPoint(Integer.parseInt(point[i]));
+            } catch (Exception e) {
+                test.setPoint(-1);
+            }
+            
 
             test.setSubject(sbj);
             test.setSchool(schl);
