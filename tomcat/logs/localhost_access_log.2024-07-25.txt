@@ -5,3 +5,14 @@
 0:0:0:0:0:0:0:1 - - [25/Jul/2024:10:02:42 +0900] "GET /exam/scoremanager/main/TestList.action HTTP/1.1" 200 6433
 0:0:0:0:0:0:0:1 - - [25/Jul/2024:10:02:49 +0900] "POST /exam/scoremanager/main/TestListSubjectException.action HTTP/1.1" 200 25903
 0:0:0:0:0:0:0:1 - - [25/Jul/2024:10:02:56 +0900] "GET /exam/scoremanager/main/TestListStudentException.action?f4=2225001 HTTP/1.1" 200 10332
+0:0:0:0:0:0:0:1 - - [25/Jul/2024:10:03:12 +0900] "GET /exam/scoremanager/main/TestListStudentException.action?f4=1111111 HTTP/1.1" 200 2309
+0:0:0:0:0:0:0:1 - - [25/Jul/2024:10:04:27 +0900] "POST /exam/scoremanager/main/TestListSubjectException.action HTTP/1.1" 500 6505
+0:0:0:0:0:0:0:1 - - [25/Jul/2024:10:09:19 +0900] "POST /exam/scoremanager/main/TestListSubjectException.action HTTP/1.1" 500 6513
+0:0:0:0:0:0:0:1 - - [25/Jul/2024:10:09:27 +0900] "POST /exam/scoremanager/main/TestListSubjectException.action HTTP/1.1" 500 6521
+0:0:0:0:0:0:0:1 - - [25/Jul/2024:10:09:30 +0900] "POST /exam/scoremanager/main/TestListSubjectException.action HTTP/1.1" 200 8560
+0:0:0:0:0:0:0:1 - - [25/Jul/2024:10:09:33 +0900] "POST /exam/scoremanager/main/TestListSubjectException.action HTTP/1.1" 500 6521
+0:0:0:0:0:0:0:1 - - [25/Jul/2024:10:19:01 +0900] "POST /exam/scoremanager/main/TestListSubjectException.action HTTP/1.1" 500 6521
+0:0:0:0:0:0:0:1 - - [25/Jul/2024:10:25:59 +0900] "POST /exam/scoremanager/main/TestListSubjectException.action HTTP/1.1" 500 6521
+0:0:0:0:0:0:0:1 - - [25/Jul/2024:10:26:52 +0900] "POST /exam/scoremanager/main/TestListSubjectException.action HTTP/1.1" 500 6521
+0:0:0:0:0:0:0:1 - - [25/Jul/2024:10:27:19 +0900] "GET /exam/scoremanager/main/TestList.action HTTP/1.1" 200 6433
+0:0:0:0:0:0:0:1 - - [25/Jul/2024:10:27:20 +0900] "GET /exam/scoremanager/main/TestRegist.action HTTP/1.1" 200 6205
