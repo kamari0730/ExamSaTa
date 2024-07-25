@@ -23,6 +23,7 @@ public class SubjectCreateExceptionAction extends Action{
 
         Subject subjects = sDao.get(cd, teacher.getSchool());
 
+        //  値が三文字でないならば画面遷移せずにエラーを表示する
         if (cd.length() != 3) {
             req.setAttribute("cd", cd);
             req.setAttribute("name", name);
@@ -31,6 +32,7 @@ public class SubjectCreateExceptionAction extends Action{
             req.setAttribute("errors", errors);
             req.getRequestDispatcher("subject_create.jsp").forward(req, res);
 
+        //  値が重複したならば画面遷移せずにエラーを表示する
         } else if (subjects != null) {
             req.setAttribute("cd", cd);
             req.setAttribute("name", name);
@@ -39,16 +41,15 @@ public class SubjectCreateExceptionAction extends Action{
             req.setAttribute("errors", errors);
             req.getRequestDispatcher("subject_create.jsp").forward(req, res);
 
+        // 問題がない場合はDaoを経由してDBに保存、doneに飛ぶ
         } else {
             // System.out.println("異常なし");
             Subject sub = new Subject();
             sub.setCd(cd);
             sub.setName(name);
             sub.setSchool(((Teacher)session.getAttribute("user")).getSchool());
-            boolean flag = sDao.save(sub);
+            boolean flag = sDao.save(sub);// DBに保存
             req.getRequestDispatcher("subject_create_done.jsp").forward(req, res);
         }
-        
     }
-    
 }
