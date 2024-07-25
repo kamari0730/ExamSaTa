@@ -50,6 +50,12 @@ public class TestListSubjectExceptionAction extends Action{
             entYearSet.add(i);
         }
 
+        req.setAttribute("f1", entYearStr);
+        req.setAttribute("f2", classNum);
+        req.setAttribute("f3", subject_set);
+        req.setAttribute("subject_set", subjects);
+        req.setAttribute("class_num_set", list);
+        req.setAttribute("ent_year_set", entYearSet);
         if(entYearStr != null){
             entYear = Integer.parseInt(entYearStr);
             if(entYear != 0 && !classNum.equals("0") && !subject.equals("0")){
@@ -58,37 +64,13 @@ public class TestListSubjectExceptionAction extends Action{
             else{
                 errors.put("f1", "クラスを指定する場合は入学年度も指定してください");
                 req.setAttribute("errors", errors);
-                req.setAttribute("f1", entYear);
-                req.setAttribute("f2", classNum);
-                req.setAttribute("f3", subject_set);
-                req.setAttribute("subject_set", subjects);
-                req.setAttribute("class_num_set", list);
-                req.setAttribute("ent_year_set", entYearSet);
                 req.getRequestDispatcher("test_list.jsp").forward(req, res);
             }
         }
-        else{
-            errors.put("f1", "クラスを指定する場合は入学年度も指定してください");
-            req.setAttribute("errors", errors);
-            req.setAttribute("f1", entYear);
-            req.setAttribute("f2", classNum);
-            req.setAttribute("f3", subject_set);
-            req.setAttribute("subject_set", subjects);
-            req.setAttribute("class_num_set", list);
-            req.setAttribute("ent_year_set", entYearSet);
 
-        }
-        
-
-        
-        
-        req.setAttribute("f1", entYear);
-        req.setAttribute("f2", classNum);
-        req.setAttribute("f3", subject_set);
+    
         req.setAttribute("students", listsb);
-        req.setAttribute("subject_set", subjects);
-        req.setAttribute("class_num_set", list);
-        req.setAttribute("ent_year_set", entYearSet);
+
 
         req.getRequestDispatcher("test_list_student.jsp").forward(req, res);
 

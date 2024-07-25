@@ -53,3 +53,27 @@
 18-Jul-2024 09:42:49.843 情報 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload このコンテキストの再ロードを開始しました
 18-Jul-2024 09:42:49.851 警告 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [exam] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
 18-Jul-2024 09:42:50.129 情報 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload このコンテキストの再ロードが完了しました
+18-Jul-2024 10:16:56.523 情報 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload このコンテキストの再ロードを開始しました
+18-Jul-2024 10:16:56.545 警告 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [exam] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+18-Jul-2024 10:16:57.109 情報 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload このコンテキストの再ロードが完了しました
+18-Jul-2024 11:23:10.402 情報 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload このコンテキストの再ロードを開始しました
+18-Jul-2024 11:23:10.440 警告 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [exam] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+18-Jul-2024 11:23:10.807 情報 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload このコンテキストの再ロードが完了しました
+18-Jul-2024 11:23:50.993 情報 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload このコンテキストの再ロードを開始しました
+18-Jul-2024 11:23:51.300 情報 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload このコンテキストの再ロードが完了しました
+18-Jul-2024 11:59:15.256 情報 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload このコンテキストの再ロードを開始しました
+18-Jul-2024 11:59:15.268 警告 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [exam] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+18-Jul-2024 11:59:15.584 情報 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload このコンテキストの再ロードが完了しました
+18-Jul-2024 12:15:26.954 情報 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload このコンテキストの再ロードを開始しました
+18-Jul-2024 12:15:26.961 警告 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [exam] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+18-Jul-2024 12:15:27.210 情報 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload このコンテキストの再ロードが完了しました
+18-Jul-2024 12:15:37.279 情報 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload このコンテキストの再ロードを開始しました
+18-Jul-2024 12:15:37.536 情報 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload このコンテキストの再ロードが完了しました
+18-Jul-2024 12:42:46.931 情報 [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Jul-2024 12:42:47.296 情報 [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+18-Jul-2024 12:42:47.641 情報 [Thread-5] org.apache.catalina.core.StandardService.stopInternal サービス Catalina を停止します
+18-Jul-2024 12:42:48.163 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [exam] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+18-Jul-2024 12:42:48.192 情報 [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Jul-2024 12:42:48.199 情報 [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+18-Jul-2024 12:42:48.205 情報 [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+18-Jul-2024 12:42:48.212 情報 [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

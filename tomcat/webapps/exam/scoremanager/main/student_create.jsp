@@ -25,7 +25,7 @@
                 <label>学生番号</label>
                 <input type="text" name="no" value="${no}" maxlength="10" placeholder="学生番号を入力してください" required>
                 <br>
-                <label>学生番号</label>
+                <label>氏名</label>
                 <input type="text" name="name" value="${name}" maxlength="30" placeholder="氏名を入力してください" required>
                 <br>
                 <label>クラス</label>

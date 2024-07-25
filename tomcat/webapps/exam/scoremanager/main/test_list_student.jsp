@@ -11,7 +11,7 @@
 
 	<c:param name="content">
 		<section class="me-4">
-			<h2 class="h3 mb-3 fw-norma bg-secondary bg-opacity-10 py-2 px-4">成績管理</h2>
+			<h2 class="h3 mb-3 fw-norma bg-secondary bg-opacity-10 py-2 px-4">成績一覧(<c:if test="${students.size()>0}">科目</c:if><c:if test="${studentss.size()>0}">学生</c:if>)</h2>
 			<div class="my-2 text-end px-4">
 
 			</div>
@@ -63,7 +63,7 @@
 					学生情報
 					<div class="col-4">
 						<label class="form-label" for="student-f3-select">学生番号</label>
-							<input class="input-group-text bg-white" id="student-f3-select" type="text" name="f4" value="">
+							<input class="input-group-text bg-white" id="student-f3-select" type="text" name="f4" value="${student.no}">
 					</div>
 
                     
@@ -82,7 +82,7 @@
 					<div>科目：${f3.name}</div>
                     <form method="get">
 						<input type="hidden" name="subject" value="${f3.cd}">
-						<input type="hidden" name="count" value="${f4}">
+						<input type="hidden" name="student_name" value="${f4}">
 						<input type="hidden" name="f1" value="${f1}">
 						<input type="hidden" name="f2" value="${f2}">
                         <table class="table table-hover">
