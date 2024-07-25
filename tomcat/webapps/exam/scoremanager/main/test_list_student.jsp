@@ -63,7 +63,7 @@
 					学生情報
 					<div class="col-4">
 						<label class="form-label" for="student-f3-select">学生番号</label>
-							<input class="input-group-text bg-white" id="student-f3-select" type="text" name="f4" value="${student.no}">
+							<input class="input-group-text bg-white" id="student-f3-select" type="text" name="f4" value="${student.no}" required>
 					</div>
 
                     

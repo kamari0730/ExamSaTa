@@ -1,0 +1,7 @@
+127.0.0.1 - - [25/Jul/2024:10:02:31 +0900] "GET /exam/scoremanager/index.jsp HTTP/1.1" 200 275
+127.0.0.1 - - [25/Jul/2024:10:02:31 +0900] "GET /exam/scoremanager/Login.action HTTP/1.1" 200 3322
+127.0.0.1 - - [25/Jul/2024:10:02:39 +0900] "POST /exam/scoremanager/LoginExecute.action HTTP/1.1" 302 -
+127.0.0.1 - - [25/Jul/2024:10:02:39 +0900] "GET /exam/scoremanager/main/Menu.action HTTP/1.1" 200 3076
+0:0:0:0:0:0:0:1 - - [25/Jul/2024:10:02:42 +0900] "GET /exam/scoremanager/main/TestList.action HTTP/1.1" 200 6433
+0:0:0:0:0:0:0:1 - - [25/Jul/2024:10:02:49 +0900] "POST /exam/scoremanager/main/TestListSubjectException.action HTTP/1.1" 200 25903
+0:0:0:0:0:0:0:1 - - [25/Jul/2024:10:02:56 +0900] "GET /exam/scoremanager/main/TestListStudentException.action?f4=2225001 HTTP/1.1" 200 10332
