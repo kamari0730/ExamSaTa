@@ -13,6 +13,7 @@ import java.util.*;
 
 import tool.Action;
 
+// 一覧表示
 public class SubjectListAction extends Action{
     public void execute(HttpServletRequest req, HttpServletResponse res) throws Exception {
         HttpSession session = req.getSession();// セッション
